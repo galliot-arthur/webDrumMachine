@@ -1,0 +1,47 @@
+html {
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+.barContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sampleContainer {
+    margin: .25rem;
+    display: flex;
+    align-items: center;
+}
+button {
+    font-family: inherit;
+    font-weight: bold;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition-property: background-color opacity;
+    transition: .3s;
+}
+button:hover {
+    opacity: .75;
+}
+.btn {
+    background-color: rgba(86, 163, 105, 0.705);
+    color: rgb(255, 255, 255);
+    border-radius: .25rem;
+    width: 2rem;
+    height: 1.5rem;
+}
+.trig {
+    background-color: #a6b3a9;
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    margin: 0 0 0 .25rem;
+}
+.higher {
+    height: 1.25rem;
+}
+.hide {
+    display: none;
+}
